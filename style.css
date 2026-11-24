@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #08111f;
+    color: #edf4ff;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+button, input, select {
+    font-family: inherit;
+}
+
+button {
+    background: #287ee8;
+    border: 0;
+    color: white;
+    padding: 14px 25px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: #1765c3;
+}
+
+/* Header */
+.topbar {
+    min-height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 50px;
+    background: #111f34;
+    border-bottom: 1px solid #26364b;
+}
+
+/* Brand */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* NETRA logo */
+.brand .logo {
+    width: 52px;
+    height: 52px;
+    background: #287ee8;
+    border: 3px solid #54a5ff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.brand .logo h2 {
+    color: white;
+    font-size: 23px;
+}
+
+/* Project title */
+.brand h1 {
+    color: #54a5ff;
+    letter-spacing: 3px;
+    font-size: 34px;
+}
+
+.brand p {
+    font-size: 9px;
+    color: #91a8c5;
+    margin-top: 3px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #aebed3;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+nav a:hover {
+    color: #54a5ff;
+}
+
+/* System status */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #39d6a0;
+    font-size: 11px;
+}
+
+/* Online dot */
+.online-dot {
+    width: 9px;
+    height: 9px;
+    background: #39d6a0;
+    border-radius: 50%;
+}
+
+/* Clock */
+#clock {
+    color: white;
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: 11px;
+}
+
+/* Dispatch button */
+#dispatch-open {
+    background: #287ee8;
+    border: none;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#dispatch-open:hover {
+    background: #1765c3;
+}
